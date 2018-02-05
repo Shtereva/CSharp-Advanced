@@ -48,6 +48,8 @@ namespace _01._Regeh
                         numbers.Enqueue(int.Parse(match.Groups[1].Value));
                         numbers.Enqueue(int.Parse(match.Groups[2].Value));
                     }
+
+                    stack.Clear();
                 }
             }
         }
